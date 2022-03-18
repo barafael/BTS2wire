@@ -7,7 +7,7 @@ BluetoothSerial SerialBT;
 
 void setup() {
     Serial.begin(115200);
-    Serial2.begin(115200);
+    Serial2.begin(9600);
     String id = "BTS2wire Bluetooth Serial to UART converter";
     SerialBT.begin(id);
 }
